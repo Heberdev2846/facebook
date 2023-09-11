@@ -4,7 +4,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="px-4 flex items-center fixed top-0 w-full justify-between border-b border-b-zinc-600 bg-zinc-800">
+    <header className="px-4 flex items-center fixed top-0 w-full justify-between border-b border-b-zinc-600 bg-zinc-900">
      <div className="flex flex-grow basis-0">
           <image className="">
             <svg
@@ -59,7 +59,7 @@ const Header = () => {
             </svg>
           </image>
           <input
-            className="rounded-full w-60"
+            className="rounded-full ml-2 w-60 pl-2 bg-zinc-800"
             placeholder="Buscar en Facebook"
           ></input>
         </div>
