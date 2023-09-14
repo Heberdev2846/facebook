@@ -3,6 +3,7 @@
 import React from 'react';
 
 const Navbarizq = () => {
+
   return (
     <div className="pt-24 pl-6 w-80 h-[650px] overflow-y-auto bg-zinc-900">
       <ul className="">

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "./Header";
 import Navbarizq from "./Navbarizq";
 import Center from "./Center";
+import Navbarder from "./Navbarder";
 
 export default function Home() {
   return (
@@ -9,13 +10,7 @@ export default function Home() {
       <Header />
       <Navbarizq />
       <Center />
-      <div className="pt-20 mt-3 w-[360px] border">
-        <div>
-          <h1>Tus páginas y perfiles</h1>
-        </div>
-        
-      </div>
-      
+      <Navbarder />
     </main>
   );
 }
