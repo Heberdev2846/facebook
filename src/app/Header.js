@@ -4,7 +4,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="px-4 flex items-center fixed top-0 w-full justify-between border-b border-b-zinc-600 bg-zinc-900">
+    <header className="z-10 px-4 flex items-center fixed top-0 w-full justify-between border-b border-b-zinc-600 bg-zinc-900">
      <div className="flex flex-grow basis-0">
           <image className="">
             <svg
@@ -64,9 +64,9 @@ const Header = () => {
           ></input>
         </div>
 
-        <nav className="ml-14">
+        <nav className="">
           <ul className="flex [&>li>a]:px-28">
-            <li>
+            <li className=''>
               <a href="/">
                 <image>
                   <svg
