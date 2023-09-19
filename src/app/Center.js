@@ -49,8 +49,8 @@ const Center = () => {
                 <li>
                   <a href="" className="p-2 flex">
                     <img
-                      className="h-6 w-6"
-                      src="public/Emojis/Video.svg"
+                      className="h-6 w-6 mr-1"
+                      src="/EmojisCentro/video.svg"
                     ></img>
                     Video en vivo
                   </a>
@@ -58,8 +58,8 @@ const Center = () => {
                 <li>
                   <a href="" className="p-2 flex">
                     <img
-                      className="h-6 w-6"
-                      src="public/Emojis/Video.svg"
+                      className="h-6 w-5 mr-1"
+                      src="/EmojisCentro/foto.svg"
                     ></img>
                     Foto/Video
                   </a>
@@ -67,8 +67,8 @@ const Center = () => {
                 <li>
                   <a href="" className="p-2 flex">
                     <img
-                      className="h-6 w-6"
-                      src="public/Emojis/Video.svg"
+                      className="h-6 w-4 mr-1"
+                      src="/EmojisCentro/emoji.svg"
                     ></img>
                     <span>Sentimiento/Actividad</span>
                   </a>
